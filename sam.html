@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harini - Sample Application Manager</title>
+</head>
+<body>
+    <h1>Welcome to Sample Application Manager</h1>
+    <p id="app">This is a sample application manager page.</p>
+
+    <script>
+        // Welcome alert
+        alert("Welcome to the Sample Application Manager!");
+
+        // Alert after 3 seconds
+        setTimeout(() => { 
+            alert("Hello after 3 seconds!"); 
+        }, 3000);
+
+        // Change the content of the paragraph
+        document.getElementById("app").innerHTML = "I changed the text!";
+    </script>
+</body>
+</html>
